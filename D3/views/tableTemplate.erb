@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title><%= message%> </title>
+	</head>
+	<body style="display:inline-block">
+	<% unless table_hash.nil? %>
+	
+		<% table_hash.each do |key, value| %>
+		<table style="display:inline">
+			<tr><th> <%= key%> </th></tr>
+			<% value.each do |x| %>
+				<tr><td> <%= x%> </td></tr>
+			<% end %>
+		</table>
+		<% end %>
+	<% end %>
+	</body>
+	<footer>
+	<br />
+	<a style="display:inline-block" href="/">Back to main page</a>
+	</footer>
+</html>
+

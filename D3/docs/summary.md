@@ -1,0 +1,5 @@
+# Summary
+
+
+Overall this project very pretty pain free. The ruby portion of the application was relatively simple, save for the generation of the
+truth table. Even then, it only took about an hour to implement the table generation correctly. The ERB templating portion was relatively simple as well. It mirrored (at least for me) the development process for flask/jinja templating in my 1520 class. Most of my time was spent learning how to target elements for testing with katalon recorder. There are soo many options for assertions, verifications, etc... that it was hard to know which was the right option. The scope fo this application is very limited, so choosing between say, assertText and verifyText was trivial, and I didnt get too hung up on which methods i used. I figured out how to target certain hidden html elements by copying the xpath and adding a '/'. After this is was simply a matter of deciding which tests belonged where. All in all, I enjoyed working with Katalon and can see its potential for more extensive system tests. 

@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    benchmark_methods (0.7)
+    fast_trie (0.5.1)
+    flamegraph (0.9.5)
+    minitest (5.11.3)
+    stackprof (0.2.12)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  benchmark_methods
+  fast_trie
+  flamegraph
+  minitest
+  stackprof
+
+BUNDLED WITH
+   1.16.6

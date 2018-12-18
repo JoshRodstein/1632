@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>ERROR <%= message%> </title>
+        <h1>ERROR</h1>
+        <% unless message.nil? %>
+            <h2><%= message%>
+            <% if error %>
+            - <%= error%></h2>
+            <% else %>
+            </h2>
+            <% end %>
+        <% end %>
+	</head>
+	<body style="font-size:20px">
+        <% unless error == 404%>
+        <a>Please Enter:</a>
+        <ol>
+            <li>A single-character true symbol</li>
+            <li>A single-character false symbol</li>
+            <li>A size greater than or equal to 2</li>
+            <li>Different characters for the true and false symbols</li>
+        </ol>
+        <% end %>
+        <a href="/">Back to main page</a>
+	</body>
+</html>
